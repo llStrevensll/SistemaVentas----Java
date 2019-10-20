@@ -17,6 +17,9 @@ public class TClientes {
     private String Direccion;
     private String Email;
     private String Telefono;
+    private String Fecha;
+    private boolean Credito;
+    private byte[] Imagen;
 
     public TClientes() {
     }
@@ -48,6 +51,31 @@ public class TClientes {
     public String getTelefono() {
         return Telefono;
     }
+
+    public String getFecha() {
+        return Fecha;
+    }
+
+    public void setFecha(String Fecha) {
+        this.Fecha = Fecha;
+    }
+
+    public boolean isCredito() {
+        return Credito;
+    }
+
+    public void setCredito(boolean Credito) {
+        this.Credito = Credito;
+    }
+
+    public byte[] getImagen() {
+        return Imagen;
+    }
+
+    public void setImagen(byte[] Imagen) {
+        this.Imagen = Imagen;
+    }
+    
     
     
 }
